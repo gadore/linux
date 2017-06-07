@@ -18,3 +18,11 @@ git reset --hard (id)
 git status (Check the current git status)
 
 git pull (get the newest from servers)
+
+
+
+
+
+
+
+> ———————————————————————————————————————————————|
