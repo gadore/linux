@@ -1,0 +1,25 @@
+{
+    "name": "hello-koa2",
+    "version": "1.0.0",
+    "description": "Hello Koa 2 example with async",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "keywords": [
+        "koa",
+        "async"
+    ],
+    "author": "Qianlicao",
+    "license": "Apache-2.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/gadore"
+    },
+    "dependencies": {// dependencies之下描述工程所需要的依赖包，通过npm install 可以自动读取并安装
+        "koa": "2.0.0"
+    },
+    "scripts":{
+        "start":"node app.js"
+    }
+}
