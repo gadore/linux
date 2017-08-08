@@ -35,15 +35,8 @@ router.get('/', async (ctx, next) => {
     ctx.response.body = '<h1>Welcome to home page</h1>';
 });
 
-module.exports = {
-    'GET /': fn_index,
-    'POST /signin': fn_signin
-};
-
-
 // add router middleware:
 app.use(router.routes());
-addControllers(router);
 
 app.listen(3000);
 console.log('app started at port 3000...');
