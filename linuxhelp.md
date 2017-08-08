@@ -43,4 +43,7 @@ There is something you should know about
 
 19. scp -P 22 username@ipAddress:/directory
 
+20. npm start  (with script : node app.js)
+
+
 
