@@ -59,3 +59,4 @@ module.exports = function (dir) {
     addControllers(router, controllers_dir);
     return router.routes();
 };
+
