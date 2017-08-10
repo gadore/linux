@@ -1,0 +1,21 @@
+{
+    "name": "use-jucks",
+    "version": "1.0.0",
+    "description": "Using Jucks now!",
+    "main": "app.js",
+    "script": {
+        "start": "node app.js"
+    },
+    "keywords": [
+        "jucks"
+    ],
+    "author": "Qianlicao",
+    "License": "Apache-2.0",
+    "respository": {
+        "type": "git",
+        "url": "https://github.com/gadore"
+    },
+    "dependencies": {
+        "nunjucks": "2.4.2"
+    }
+}
